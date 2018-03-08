@@ -8,6 +8,6 @@ RUN apt-get -y update && \
     wget -O /root/oracle_vbox_2016.asc https://www.virtualbox.org/download/oracle_vbox_2016.asc && \
     apt-key add /root/oracle_vbox_2016.asc && \
     apt-get -y update && \
-    apt-get -y install virtualbox-5.1 && \
+    apt-get -y install virtualbox-5.2 && \
     apt-get -y clean
 
